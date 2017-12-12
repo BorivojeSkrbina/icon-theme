@@ -9,6 +9,10 @@ header{
     z-index: 5;
 }
 
+body{
+    position: relative;
+}
+
 html{
     font-size: 14px;
 }
