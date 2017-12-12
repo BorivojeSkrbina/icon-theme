@@ -170,11 +170,6 @@
   width: 100%; }
 
 
-
-
-
-
-
 /**
  * Owl Carousel v2.2.1
  * Copyright 2013-2017 David Deutsch
@@ -193,6 +188,7 @@
   .owl-carousel .owl-nav [class*='owl-'] {
     color: #FFF;
     font-size: 14px;
+    
     margin: 5px;
     line-height: 30px;
     background: rgba(0,0,0,0.4);
@@ -231,12 +227,12 @@
     .owl-carousel .owl-dots .owl-dot.active span, .owl-carousel .owl-dots .owl-dot:hover span {
       background: #869791; }
 
+    
     .owl-carousel .owl-nav .owl-prev{
-        left: 0;
+        left:0;
         position: absolute;
     }
-    
     .owl-carousel .owl-nav .owl-next{
-        right: 0;
+        right:0;
         position: absolute;
     }

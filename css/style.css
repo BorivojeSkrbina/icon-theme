@@ -7,10 +7,15 @@ header{
     position: fixed;
     width: 100%;
     z-index: 5;
+    transition: 0.8s linear;
 }
 
 body{
     position: relative;
+}
+header .navbar-brand.small-logo{
+    width: 80px;
+    height: 80px;
 }
 
 html{
@@ -47,7 +52,7 @@ figure {
 }
 
 .navbar-brand{
-
+transition: 0.8s linear;
 }
 
 .navbar-brand img{
@@ -96,11 +101,8 @@ figure {
 .landing{
     background-repeat: no-repeat;
     background-size: cover;
+    
     position: relative;
-}
-
-.landing .container .row{
-    min-height: 100vh;
 }
 
 .landing:before{
@@ -112,29 +114,29 @@ figure {
     bottom: 0;
     background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6)); /*Standard*/
 }
-
+.landing .container .row{
+    min-height: 100vh;
+}
 .landing article{
     padding-right: 35px;
 }
 
-.landing a{
-    box-shadow: 2px 10px 10px rgba(0,0,0,0.2);
-}
-
-.landing .container {
+.landing .container{
     position: relative;
 }
-
-.landing .container > a .fa{
-    font-size: 32px;
-    color: #fff;
-}
-
 .landing .container > a{
     position: absolute;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
+}
+.landing .container > a .fa{
+    font-size: 32px;
+    color:#fff;
+}
+
+.landing a{
+    box-shadow: 2px 10px 10px rgba(0,0,0,0.2);
 }
 
 /*------HOW------*/
@@ -393,11 +395,9 @@ footer .nav{
 
 
 
-
 .svg{
-    transform: rotate(-90deg)
+    transform: rotate(-90deg);
 }
-
 .svg circle {
   stroke-dashoffset: 0;
   transition: stroke-dashoffset 1s linear;
@@ -405,12 +405,15 @@ footer .nav{
   stroke-width: 1em;
 }
 .svg .bar {
-  stroke: #2dade8;
+  stroke:#2dade8;
 }
 .cont {
   display: block;
   height: 200px;
   width: 200px;
+  margin: 2em auto;
+ color:#fff;
+ font-family:'Merriweather', serif; 
   border-radius: 100%;
   position: relative;
 }
@@ -429,3 +432,5 @@ footer .nav{
   font-size: 2em;
   text-shadow: 0 0 0.5em black;
 }
+
+
